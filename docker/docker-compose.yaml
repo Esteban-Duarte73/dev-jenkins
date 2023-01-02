@@ -1,10 +1,9 @@
 services:
   jenkins:
     container_name: jenkins_esteban
-    image: jenkins/jenkins:lts
     #add node image
     build:
-      context: ../common/dockerfile
+      dockerfile: ../common/Dockerfile
     ports:
       - "8080:8080"
     volumes:
