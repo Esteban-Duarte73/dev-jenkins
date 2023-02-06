@@ -1,5 +1,5 @@
 start-jenkins:
-	cd docker/ && docker-compose up -d
+	cd docker/ && docker compose up -d
 
 stop-jenkins:
-	cd docker/ && docker-compose stop
+	cd docker/ && docker compose stop
